@@ -1,0 +1,10 @@
+---
+- name:
+  hosts: all
+  tasks:
+    - name: copy file from local to remote host
+      copy:
+        src: test.txt
+        dest: /home/ansiblengine1
+---
+---

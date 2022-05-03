@@ -1,0 +1,6 @@
+---
+- name: copy
+  hosts: all
+  roles:
+    - whitehat
+...  

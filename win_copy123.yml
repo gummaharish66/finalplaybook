@@ -1,0 +1,5 @@
+---
+- name: wincopy
+  hosts: win
+  roles:
+    - win_copy12
